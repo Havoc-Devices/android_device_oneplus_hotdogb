@@ -20,7 +20,11 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
+
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#ccccac</color>
 
 </resources>
